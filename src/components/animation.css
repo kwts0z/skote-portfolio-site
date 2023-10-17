@@ -1,0 +1,11 @@
+@keyframes anim {
+  from {width: 0%;}
+  to {width: 100%;}
+}
+
+#line-div:hover #line{
+  display: flex;
+  animation-name: anim;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
