@@ -10,7 +10,7 @@ function About() {
         </div>
         <p className='text-xl break-words text-left flex-1 space-y-5 xl:text-2xl'>
           <h1>Welcome!</h1>
-          <p>Thank you for listening to my work! I’m a game audio sound designer based in Leeds, UK originally from Athens, Greece.</p>
+          <p>Thank you for listening to my work! I’m Georgios, a game audio sound designer based in Leeds, UK originally from Athens, Greece.</p>
           <p>I’m passionate about creative audio, storytelling, and immersive design. My passion for audio began at an early age when I started playing drums and recording music with friends. I went on to earn a Bachelor’s degree in Music Technology & Acoustics. During my Bachelor’s degree, I discovered the magic of sound design and game audio as a career path. This is why I relocated to Leeds and enrolled in the Sound and Music for Interactive Games master’s program at Leeds Beckett University to further explore game audio and the industry. I also love connecting with like-minded people, which is why you can often find me attending events such as the Leeds Games Toast, Game Audio Nexus, Game Audio Symposium or the Develop:Conference.</p>
           <p>To date, I’ve been involved with a couple of indie titles such as Carbonflesh and Selini, alongside pursuing several personal projects, university assignments, and enthusiastically participating in game jams.</p>
           <p>I revel in the creative freedom this field offers, allowing me to seamlessly transition from impactful sci-fi abilities to immersing players in dark, horror soundscapes. Additionally, I love the power of procedural sound design to overcome game audio challenges. As for my preferred tools, I tend to favor Reaper for audio design, and Wwise for implementation.</p>
@@ -42,9 +42,9 @@ function About() {
           <ul className='pt-10 lg:pt-0'>
             <li className='font-extrabold underline pb-5 list-none'>My hobbies:</li>
             <li>Films</li>
-            <li>Playing drums</li>
             <li>Skateboarding</li>
             <li>Concerts</li>
+            <li>Playing drums</li>
             <li>Sketching</li>
           </ul>
         </div>
