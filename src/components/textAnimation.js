@@ -29,7 +29,7 @@ export function init(){
         clearInterval(interval);
       }
 
-      iteration += 1 / 3;
-    }, 20);
+      iteration += 1 / 2;
+    }, 10);
   }
 }
