@@ -42,10 +42,10 @@ function About() {
           <ul className='pt-10 lg:pt-0'>
             <li className='font-extrabold underline pb-5 list-none'>My hobbies:</li>
             <li>Films</li>
+            <li>Playing drums</li>
             <li>Skateboarding</li>
             <li>Concerts</li>
             <li>Sketching</li>
-            <li>Playing drums</li>
           </ul>
         </div>
       </div>
