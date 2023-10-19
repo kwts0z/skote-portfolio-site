@@ -13,20 +13,20 @@ function ImplementationReels() {
 
   return (
     <div id="impReel" className='relative bg-white'>
-      <div className='flex flex-row w-full'>
-        <img className="w-1/2 rotate-180 z-50" src={image2} alt='divider'/>
-        <img className="w-1/2 rotate-180 z-50 " src={image2} alt='divider'/>
+      <div className='relative flex flex-row w-full h-full pb-20'>
+        <img className="w-1/2 h-full rotate-180 z-50" src={image2} alt='divider'/>
+        <img className="w-1/2 h-full rotate-180 z-50 " src={image2} alt='divider'/>
       </div>
       <img className='absolute top-0 bottom-0 w-96 h-96 z-0 m-auto' src={paint} rel=' '/>
       <img className='absolute top-80 lg:top-40 -right-52 lg:w-1/2 z-0 m-auto' src={splatter} rel=' '/>
       <div className="flex flex-col justify-center items-center pt-16 space-y-10 z-50 px-10 lg:px-36 xl:px-56">
-        <div className='flex flex-row justify-center items-center space-x-5 text-black pb-10'>
+        <div className='flex flex-row justify-center items-center space-x-5 text-black'>
           <h1>&#9679;</h1>
           <h1 className='text-3xl font-extrabold lg:text-5xl'>Implementation Reels</h1>
           <h1>&#9679;</h1>
         </div>
 
-        <div className='flex flex-col w-full space-y-5 lg:flex-row lg:space-y-0 pt-48 items-center'>
+        <div className='flex flex-col w-full space-y-5 lg:flex-row lg:space-y-0 pt-20 items-center'>
           <div className='relative flex w-full h-full items-end'>
             <ReactPlayer width='100%' height='100%' style={style} url='https://vimeo.com/866330164' controls={true}/>
           </div>
@@ -55,12 +55,9 @@ function ImplementationReels() {
             </div>
           </div>
         </div>
+      </div>
 
-      </div>
-      <div className='flex flex-row w-full'>
-        <img className="w-1/2 z-50" src={image} alt='divider'/>
-        <img className="w-1/2 z-50 transform scale-x-[-1]" src={image} alt='divider'/>
-      </div>
+      <img className="w-full z-50 object-cover" src={image} alt='divider'/>
     </div>
   );
 }
