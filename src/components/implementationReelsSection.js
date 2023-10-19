@@ -1,5 +1,6 @@
 import ReactPlayer from 'react-player'
-import image from '../assets/download.svg';
+import image from '../assets/divider.svg';
+import image2 from '../assets/download.svg';
 import paint from '../assets/paint.jpg';
 import splatter from '../assets/splatter.png';
 
@@ -12,7 +13,10 @@ function ImplementationReels() {
 
   return (
     <div id="impReel" className='relative bg-white'>
-      <img className="w-full rotate-180 z-50" src={image} alt='divider'/>
+      <div className='flex flex-row w-full'>
+        <img className="w-1/2 rotate-180 z-50" src={image2} alt='divider'/>
+        <img className="w-1/2 rotate-180 z-50 " src={image2} alt='divider'/>
+      </div>
       <img className='absolute top-0 bottom-0 w-96 h-96 z-0 m-auto' src={paint} rel=' '/>
       <img className='absolute top-80 lg:top-40 -right-52 lg:w-1/2 z-0 m-auto' src={splatter} rel=' '/>
       <div className="flex flex-col justify-center items-center pt-16 space-y-10 z-50 px-10 lg:px-36 xl:px-56">
@@ -53,7 +57,10 @@ function ImplementationReels() {
         </div>
 
       </div>
-      <img className="w-full z-50" src={image} alt='divider'/>
+      <div className='flex flex-row w-full'>
+        <img className="w-1/2 z-50" src={image} alt='divider'/>
+        <img className="w-1/2 z-50 transform scale-x-[-1]" src={image} alt='divider'/>
+      </div>
     </div>
   );
 }
