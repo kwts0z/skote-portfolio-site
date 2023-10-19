@@ -17,10 +17,10 @@ function About() {
           <p>I am currently looking to join a dynamic audio team to produce great and unique audio experiences.</p>
         </p>
       </div>
-      <div className='flex flex-col w-full lg:flex-row pt-10 items-center justify-center lg:items-top text-2xl'>
+      <div className='flex flex-col w-full lg:flex-row pt-10 lg:items-top text-2xl items-center lg:justify-start lg:space-x-40'>
 
-        <div className='relative flex w-2/3 flex-row justify-between'>
-          <ul className='w-full lg:w-1/3 text-left list-disc pr-10'>
+        <div className='relative flex flex-row space-x-10 lg:space-x-0 lg:w-2/3 justify-between'>
+          <ul className='lg:w-1/3'>
             <li className='font-extrabold underline pb-5 list-none'>My favourite games:</li>
             <li>Control</li>
             <li>Apex Legends</li>
@@ -28,7 +28,7 @@ function About() {
             <li>Titanfall 2</li>
             <li>Amnesia Series</li>
           </ul>
-          <ul className='w-full lg:w-1/3 text-left list-disc pl-5'>
+          <ul className='lg:w-1/3'>
             <li className='font-extrabold underline pb-5 list-none'>Can't wait to play:</li>
             <li>Alan Wake 2</li>
             <li>Returnal</li>
@@ -38,8 +38,8 @@ function About() {
           </ul>
         </div>
 
-        <div className='flex w-1/3 items-end justify-end'>
-          <ul className='text-left list-disc pt-10 lg:pt-0'>
+        <div className='flex w-full justify-center lg:w-1/3 lg:justify-end lg:pr-24'>
+          <ul className='pt-10 lg:pt-0'>
             <li className='font-extrabold underline pb-5 list-none'>My hobbies:</li>
             <li>Films</li>
             <li>Skateboarding</li>
