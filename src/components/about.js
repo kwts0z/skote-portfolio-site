@@ -8,7 +8,7 @@ function About() {
         <div className='flex w-80 h-80 rounded-full overflow-hidden justify-center items-center sm:float-right'>
           <img className="w-full object-cover" src={image} alt='Profile'/>
         </div>
-        <p className='text-xl break-words text-left flex-1 space-y-5 xl:text-2xl'>
+        <p className='text-xl text-gray-200 break-words text-left flex-1 space-y-5 xl:text-2xl'>
           <h1>Welcome!</h1>
           <p>Thank you for listening to my work! I’m Georgios, a game audio sound designer based in Leeds, UK originally from Athens, Greece.</p>
           <p>I’m passionate about creative audio, storytelling, and immersive design. My passion for audio began at an early age when I started playing drums and recording music with friends. I went on to earn a Bachelor’s degree in Music Technology & Acoustics. During my Bachelor’s degree, I discovered the magic of sound design and game audio as a career path. This is why I relocated to Leeds and enrolled in the Sound and Music for Interactive Games master’s program at Leeds Beckett University to further explore game audio and the industry. I also love connecting with like-minded people, which is why you can often find me attending events such as the Leeds Games Toast, Game Audio Nexus, Game Audio Symposium or the Develop:Conference.</p>
