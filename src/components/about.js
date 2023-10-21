@@ -3,7 +3,7 @@ import image from '../assets/skote.jpg'
 function About() {
   return (
     <div id="about" className="flex flex-col py-10 justify-center items-center space-y-5 w-full h-full px-10 xl:px-56">
-      <h1 className='text-4xl font-extrabold text-left'>About</h1>
+      <h1 className='text-4xl text-gray-200 font-extrabold text-left'>About</h1>
       <div className="max-sm:flex max-sm:flex-col max-sm:justify-center max-sm:items-center max-sm:w-full">
         <div className='flex w-80 h-80 rounded-full overflow-hidden justify-center items-center sm:float-right'>
           <img className="w-full object-cover" src={image} alt='Profile'/>
@@ -19,7 +19,7 @@ function About() {
       </div>
       <div className='flex flex-col w-full lg:flex-row pt-10 lg:items-top text-2xl items-center lg:justify-start lg:space-x-40'>
 
-        <div className='relative flex flex-row space-x-10 lg:space-x-0 lg:w-2/3 justify-between'>
+        <div className='relative flex text-gray-200 flex-row space-x-10 lg:space-x-0 lg:w-2/3 justify-between'>
           <ul className='lg:w-1/3'>
             <li className='font-extrabold underline pb-5 list-none'>My favourite games:</li>
             <li>Control</li>
@@ -38,7 +38,7 @@ function About() {
           </ul>
         </div>
 
-        <div className='flex w-full justify-center lg:w-1/3 lg:justify-end lg:pr-24'>
+        <div className='flex w-full text-gray-200 justify-center lg:w-1/3 lg:justify-end lg:pr-24'>
           <ul className='pt-10 lg:pt-0'>
             <li className='font-extrabold underline pb-5 list-none'>My hobbies:</li>
             <li>Films</li>
