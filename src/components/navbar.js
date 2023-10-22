@@ -1,4 +1,4 @@
-import logo from '../assets/skoteLogosimple.svg'
+import logo from '../assets/skoteLogosimple.png'
 import React, { useState, useEffect } from 'react';
 import './animation.css';
 
