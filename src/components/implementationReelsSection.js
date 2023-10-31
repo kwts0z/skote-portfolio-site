@@ -30,7 +30,7 @@ function ImplementationReels() {
           <div className='relative flex w-full h-full items-end'>
             <ReactPlayer width='100%' height='100%' style={style} url='https://vimeo.com/866330164' controls={true}/>
           </div>
-          <div className='flex flex-col space-y-5 ml-5 pt-5 px-5 z-10 w-full text-black bg-white text-xl 2xl:text-2xl lg:w-1/2'>
+          <div className='flex flex-col space-y-5 ml-5 pt-5 px-5 z-10 w-full text-black text-xl 2xl:text-2xl lg:w-1/2'>
               <h1 className='font-extrabold text-3xl 2xl:text-4xl'>Carbonflesh</h1>
               <h2 className='font-bold'>Sound Design and Wwise / Unity Implementation</h2>
               <p className='text-left'>Carbonflesh is an indie game that I had the honor to be included as the Sound Designer. In this video, you'll find some gameplay and examples of my implementation. The sounds have been Implemented using Wwise and Unity.</p>
@@ -40,7 +40,7 @@ function ImplementationReels() {
         <div className='flex flex-col w-full items-start lg:flex-row lg:space-x-5'>
           <div className='flex flex-col w-full'>
             <ReactPlayer width='100%' height='100%' style={style} url='https://vimeo.com/870703436' controls={true}/>
-            <div className='flex flex-col space-y-5 text-black bg-white pt-5 z-10 text-xl xl:text-2xl'>
+            <div className='flex flex-col space-y-5 text-black  pt-5 z-10 text-xl xl:text-2xl'>
               <h1 className='font-extrabold text-3xl 2xl:text-4xl'>Abandoned Hospital Demo</h1>
               <h2 className='font-bold'>Sound Design and UE 5 Implementation</h2>
               <p className='text-left pb-5'>Abandoned Hospital is a demo level that I used to practice and share my UE 5 implementation skills. This video shows the gameplay of the game. I've added all the sounds and interactions happening in the game from the environment to collecting items. </p>
@@ -48,7 +48,7 @@ function ImplementationReels() {
           </div>
           <div className='flex flex-col w-full'>
             <ReactPlayer width='100%' height='100%' style={style} url='https://vimeo.com/874181212' controls={true}/>
-            <div className='flex flex-col space-y-5 text-black bg-white pt-5 text-xl xl:text-2xl'>
+            <div className='flex flex-col space-y-5 text-black pt-5 text-xl xl:text-2xl'>
               <h1 className='font-extrabold text-3xl 2xl:text-4xl'>Space Journey Demo</h1>
               <h2 className='font-bold'>Sound Design and Fmod / Unity Implementation</h2>
               <p className='text-left pb-5'>Space Journey is a demo game that I used to practice and share my Fmod and Unity implementation skills. This video breaks down all the different sound sources and audible interactions within the game.</p>
