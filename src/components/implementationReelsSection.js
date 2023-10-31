@@ -41,7 +41,7 @@ function ImplementationReels() {
           <div className='flex flex-col w-full'>
             <ReactPlayer width='100%' height='100%' style={style} url='https://vimeo.com/870703436' controls={true}/>
             <div className='flex flex-col space-y-5 text-black pt-5 z-10 text-xl xl:text-2xl'>
-              <h1 className='font-extrabold text-3xl 2xl:text-4xl'>Abandoned Hospital Demo</h1>
+              <h1 className='font-extrabold text-3xl 2xl:text-4xl bg-white'>Abandoned Hospital Demo</h1>
               <h2 className='font-bold bg-white'>Sound Design and UE 5 Implementation</h2>
               <p className='text-left bg-white pb-5'>Abandoned Hospital is a demo level that I used to practice and share my UE 5 implementation skills. This video shows the gameplay of the game. I've added all the sounds and interactions happening in the game from the environment to collecting items. </p>
             </div>
