@@ -43,7 +43,7 @@ function ImplementationReels() {
             <div className='flex flex-col space-y-5 text-black pt-5 z-10 text-xl xl:text-2xl'>
               <h1 className='font-extrabold text-3xl 2xl:text-4xl bg-white'>Abandoned Hospital Demo</h1>
               <h2 className='font-bold bg-white'>Sound Design and UE 5 Implementation</h2>
-              <p className='text-left bg-white pb-5'>Abandoned Hospital is a demo level that I used to practice and share my UE 5 implementation skills. This video shows the gameplay of the game. I've added all the sounds and interactions happening in the game from the environment to collecting items. </p>
+              <p className='text-left bg-white pb-5'>Abandoned Hospital is a UE demo level that I used to create all the sounds from the ambience to the interactions and implement them using UE's native tools. This video shows the gameplay of the game. I have also modified the level to add more interactions and enhance the gameplay experience. These changes vary from item collection, to light changes, or moving sounds using sequencers. </p>
             </div>
           </div>
           <div className='flex flex-col w-full'>
@@ -51,7 +51,7 @@ function ImplementationReels() {
             <div className='flex flex-col space-y-5 text-black bg-white pt-5 text-xl xl:text-2xl'>
               <h1 className='font-extrabold text-3xl 2xl:text-4xl'>Space Journey Demo</h1>
               <h2 className='font-bold'>Sound Design and Fmod / Unity Implementation</h2>
-              <p className='text-left pb-5'>Space Journey is a demo game that I used to practice and share my Fmod and Unity implementation skills. This video breaks down all the different sound sources and audible interactions within the game.</p>
+              <p className='text-left pb-5'>Space Journey is a Unity demo game that I used to demonstrate my Fmod and Unity implementation skills. This video breaks down all the different sound sources and audible interactions within the game.</p>
             </div>
           </div>
         </div>
