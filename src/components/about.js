@@ -21,7 +21,7 @@ function About() {
 
         <div className='relative flex text-gray-200 flex-row space-x-10 lg:space-x-0 lg:w-2/3 justify-between'>
           <ul className='lg:w-1/3'>
-            <li className='font-extrabold underline pb-5 list-none'>My favourite games:</li>
+            <li className='font-bold underline pb-5 list-none'>My favourite games:</li>
             <li>Control</li>
             <li>Apex Legends</li>
             <li>Portal 2</li>
@@ -29,7 +29,7 @@ function About() {
             <li>Amnesia Series</li>
           </ul>
           <ul className='lg:w-1/3'>
-            <li className='font-extrabold underline pb-5 list-none'>Can't wait to play:</li>
+            <li className='font-bold underline pb-5 list-none'>Can't wait to play:</li>
             <li>Alan Wake 2</li>
             <li>Returnal</li>
             <li>Payday 3</li>
@@ -40,7 +40,7 @@ function About() {
 
         <div className='flex w-full text-gray-200 justify-center lg:w-1/3 lg:justify-end lg:pr-24'>
           <ul className='pt-10 lg:pt-0'>
-            <li className='font-extrabold underline pb-5 list-none'>My hobbies:</li>
+            <li className='font-bold underline pb-5 list-none'>My hobbies:</li>
             <li>Films</li>
             <li>Skateboarding</li>
             <li>Concerts</li>
