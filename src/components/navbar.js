@@ -40,7 +40,7 @@ function Navbar() {
             <hr id="line" className="h-0.5 bg-white border-0 rounded-full w-0"/>
           </div>
           <div id="line-div" className='flex flex-col'>
-            <h1 className='cursor-pointer text-xl text-gray-200 font-bold'><a href='#about' onClick={(e) => {e.preventDefault(); scrollToSection('about')}}>About</a></h1>
+            <h1 className='cursor-pointer text-xl text-gray-200 font-bold'><a href='#about' onClick={(e) => {e.preventDefault(); scrollToSection('about')}}>Bio</a></h1>
             <hr id="line" className="h-0.5 bg-white border-0 rounded-full w-0"/>
           </div>
         </div>
