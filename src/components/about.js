@@ -1,4 +1,5 @@
 import image from '../assets/skote.jpg'
+import image1 from '../assets/smash2.jpg'
 
 function About() {
   return (
@@ -17,37 +18,41 @@ function About() {
           <p>I am currently looking to join a dynamic audio team to produce great and unique audio experiences.</p>
         </p>
       </div>
-      <div className='flex flex-col w-full lg:flex-row pt-10 lg:items-top text-2xl items-center lg:justify-start lg:space-x-40'>
+      <div className='flex flex-col w-full pt-10 lg:items-top text-2xl items-center lg:justify-start lg:space-x-40'>
 
-        <div className='relative flex text-gray-200 flex-row space-x-10 lg:space-x-0 lg:w-2/3 justify-between'>
-          <ul className='lg:w-1/3'>
-            <li className='font-bold underline pb-5 list-none'>My favourite games:</li>
-            <li>Control</li>
-            <li>Apex Legends</li>
-            <li>Portal 2</li>
-            <li>Titanfall 2</li>
-            <li>Amnesia Series</li>
-          </ul>
-          <ul className='lg:w-1/3'>
-            <li className='font-bold underline pb-5 list-none'>Can't wait to play:</li>
-            <li>Alan Wake 2</li>
-            <li>Returnal</li>
-            <li>Payday 3</li>
-            <li>Ghostrunner 2</li>
-            <li>The Outlast Trials</li>
-          </ul>
-        </div>
+        <div className='flex flex-col w-full space-y-5 lg:flex-row lg:space-y-0 lg:space-x-5 items-center'>
+          <div className='flex w-full overflow-hidden justify-center items-center sm:w-1/5'>
+            <img className="w-full object-cover rounded" src={image1} alt='Profile'/>
+          </div>
+          <div className='flex flex-col w-full space-y-5 text-gray-200 justify-between items-center lg:flex-row lg:space-y-0'>
+            <ul className='lg:w-1/3'>
+              <li className='font-extrabold underline pb-5 list-none'>My favourite games:</li>
+              <li>Control</li>
+              <li>Apex Legends</li>
+              <li>Portal 2</li>
+              <li>Titanfall 2</li>
+              <li>Amnesia Series</li>
+            </ul>
+            <ul className='lg:w-1/3'>
+              <li className='font-extrabold underline pb-5 list-none'>Can't wait to play:</li>
+              <li>Alan Wake 2</li>
+              <li>Returnal</li>
+              <li>Payday 3</li>
+              <li>Ghostrunner 2</li>
+              <li>The Outlast Trials</li>
+            </ul>
+            <ul className='lg:w-1/3'>
+              <li className='font-extrabold underline pb-5 list-none'>My hobbies:</li>
+              <li>Films</li>
+              <li>Skateboarding</li>
+              <li>Concerts</li>
+              <li>Playing drums</li>
+              <li>Sketching</li>
+            </ul>
+          </div>
 
-        <div className='flex w-full text-gray-200 justify-center lg:w-1/3 lg:justify-end lg:pr-24'>
-          <ul className='pt-10 lg:pt-0'>
-            <li className='font-bold underline pb-5 list-none'>My hobbies:</li>
-            <li>Films</li>
-            <li>Skateboarding</li>
-            <li>Concerts</li>
-            <li>Playing drums</li>
-            <li>Sketching</li>
-          </ul>
         </div>
+        
       </div>
 
     </div>
