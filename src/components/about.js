@@ -3,7 +3,7 @@ import image from '../assets/skote.jpg'
 function About() {
   return (
     <div id="about" className="flex flex-col py-10 justify-center items-center space-y-5 w-full h-full px-10 xl:px-56">
-      <h1 className='text-4xl text-gray-200 font-extrabold text-left'>Bio</h1>
+      <h1 className='text-4xl text-gray-200 font-extrabold text-left'>About</h1>
       <div className="max-sm:flex max-sm:flex-col max-sm:justify-center max-sm:items-center max-sm:w-full">
         <div className='flex w-80 h-80 rounded-full overflow-hidden justify-center items-center sm:float-right'>
           <img className="w-full object-cover" src={image} alt='Profile'/>
