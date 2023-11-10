@@ -11,7 +11,7 @@ function Showreel() {
     <div id="showreel" className="flex flex-col bg-black px-0 space-y-5 pt-32 justify-center items-center xl:px-56">
       <div className='flex flex-row justify-center items-center space-x-5'>
         <h1>&#9675;</h1>
-        <h1 id="myText" data-value="Game Sound Design Reel" className='text-white text-gray-200 text-3xl font-extrabold lg:text-5xl font-mono'>Game Sound Design Reel</h1>
+        <h1 id="myText" data-value="Game Sound Design Reel" className='text-white text-gray-200 text-3xl font-extrabold lg:text-5xl' style="Open Sans" >Game Sound Design Reel</h1>
         <h1>&#9675;</h1>
       </div>
 
