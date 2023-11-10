@@ -10,7 +10,7 @@ function About() {
         </div>
         <p className='text-xl text-gray-200 break-words text-left flex-1 space-y-5 xl:text-2xl'>
           <h1>Welcome!</h1>
-          <p>Thank you for listening to my work! I’m Georgios, a game audio sound designer based in Leeds, UK originally from Athens, Greece.</p>
+          <p>I’m Georgios, a game audio sound designer based in Leeds, UK originally from Athens, Greece.</p>
           <p>My passion for audio began at an early age when I started playing drums and recording music with friends. I went on to earn a Bachelor’s degree in Music Technology & Acoustics. During my Bachelor’s degree, I discovered the magic of sound design and I got passionate about game audio. This is why I relocated to Leeds and finished the Sound and Music for Interactive Games master’s program at Leeds Beckett University to further explore game audio design and the video game industry. I also love connecting with like-minded people, and I regularly attend game dev events such as the Leeds Games Toast, Game Audio Nexus, Game Audio Symposium or the Develop:Conference.</p>
           <p>To date, I’ve been involved with a couple of indie titles such as Carbonflesh and Selini, alongside pursuing several personal projects, university assignments, and enthusiastically participating in game jams.</p>
           <p>I revel in the creative freedom this field offers, allowing me to seamlessly transition from impactful sci-fi abilities to immersing players in dark, horror soundscapes. Additionally, I love the power of procedural sound design to overcome game audio challenges. As for my preferred tools, I tend to favor Reaper for audio design, and Wwise for implementation.</p>
