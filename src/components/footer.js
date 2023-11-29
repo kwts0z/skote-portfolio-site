@@ -14,7 +14,7 @@ function Footer() {
   return (
     <div className="flex flex-col bg-black px-5 justify-center items-center w-full md:items-end md:justify-between md:flex-row">
       <div className='flex h-[7rem] md:pb-2 justify-between md:justify-end md:order-3 w-full md:w-1/3'>
-        <a className="flex h-full w-auto justify-end" target="_blank" rel="noreferrer" href="mailto:georgakis.yorgos@gmail.com"><img className="h-full w-auto pt-5 transition-all duration-300 hover:scale-125" src={email} alt='email'/></a>
+        <a className="flex h-full w-auto justify-end" target="_blank" rel="noreferrer" href="mailto:georgiosaudio@gmail.com"><img className="h-full w-auto pt-5 transition-all duration-300 hover:scale-125" src={email} alt='email'/></a>
         <a className="flex h-full w-auto pt-6 justify-center" target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/georgios-georgakis/'><img className="h-5/6 w-auto transition-all duration-300 hover:scale-125" src={linkedIn} alt='linked in'/></a>
       </div>
       <div className='flex w-full md:w-1/3 justify-center lg:justify-normal'>
