@@ -42,15 +42,15 @@ function ImplementationReels() {
             <ReactPlayer width='100%' height='100%' style={style} url='https://vimeo.com/870703436' controls={true}/>
             <div className='flex flex-col space-y-5 text-black pt-5 z-10 text-xl xl:text-2xl'>
               <h1 className='font-extrabold text-3xl 2xl:text-4xl bg-white'>Abandoned Hospital Demo</h1>
-              <h2 className='font-bold bg-white'>Sound Design and UE 5 Implementation</h2>
-              <p className='text-left bg-white pb-5'>Abandoned Hospital is a UE demo level that I used to create all the sounds from the ambience to the interactions and implement them using UE's native tools. Further, I have also modified the level to add more interactions and enhance the gameplay experience. These changes vary from item collection, to light changes, or moving sounds using sequencers. This video presents a gameplay example. </p>
+              <h2 className='font-bold bg-white'>Sound Design & Unreal Engine 5 Implementation</h2>
+              <p className='text-left bg-white pb-5'>Using the Abandoned Hospital demo level in Unreal Engine, I implemented my sounds from ambience to interactions using UE's native tools such as Sound Cues, Audio Volumes and Blueprints. Further, I have also modified the level to add more interactions and enhance the gameplay experience. These changes vary from item collection, to light changes, or moving sounds using sequencers. This video presents a gameplay example. </p>
             </div>
           </div>
           <div className='flex flex-col w-full'>
             <ReactPlayer width='100%' height='100%' style={style} url='https://vimeo.com/874181212' controls={true}/>
             <div className='flex flex-col space-y-5 text-black bg-white pt-5 text-xl xl:text-2xl'>
               <h1 className='font-extrabold text-3xl 2xl:text-4xl'>Space Journey Demo</h1>
-              <h2 className='font-bold'>Sound Design and Fmod / Unity Implementation</h2>
+              <h2 className='font-bold'>Sound Design & Fmod / Unity Implementation</h2>
               <p className='text-left pb-5'>Space Journey is a Unity demo game that I used to demonstrate my Fmod and Unity implementation skills. This video breaks down all the different sound sources and audible interactions within the game.</p>
             </div>
           </div>
