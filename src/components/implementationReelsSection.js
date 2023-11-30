@@ -43,7 +43,7 @@ function ImplementationReels() {
             <div className='flex flex-col space-y-5 text-black pt-5 z-10 text-xl xl:text-2xl'>
               <h1 className='font-extrabold text-3xl 2xl:text-4xl bg-white'>Abandoned Hospital Demo</h1>
               <h2 className='font-bold bg-white'>Sound Design & Unreal Engine 5 Implementation</h2>
-              <p className='text-left bg-white pb-5'>Using the Abandoned Hospital demo level in Unreal Engine, I implemented my sounds from ambience to interactions using UE's native tools such as Sound Cues, Audio Volumes and Blueprints. Further, I have also modified the level to add more interactions and enhance the gameplay experience. These changes vary from item collection, to light changes, or moving sounds using sequencers. This video presents a gameplay example. </p>
+              <p className='text-left bg-white pb-5'>Using the Abandoned Hospital demo level in Unreal Engine, I implemented my sounds from ambience to interactions using Unreal Engine's native tools such as Sound Cues, Audio Volumes and Blueprints. Further, I have also modified the level to add more interactions and enhance the gameplay experience. These changes vary from item collection, to light changes, or moving sounds using sequencers. This video presents a gameplay example. </p>
             </div>
           </div>
           <div className='flex flex-col w-full'>
