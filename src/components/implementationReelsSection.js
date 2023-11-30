@@ -32,7 +32,7 @@ function ImplementationReels() {
           </div>
           <div className='flex flex-col space-y-5 ml-5 pt-5 px-5 z-10 w-full text-black text-xl 2xl:text-2xl lg:w-1/2'>
               <h1 className='font-extrabold text-3xl 2xl:text-4xl'>Carbonflesh</h1>
-              <h2 className='font-bold bg-white'>Sound Design and Wwise / Unity Implementation</h2>
+              <h2 className='font-bold bg-white'>Sound Design & Wwise / Unity Implementation</h2>
               <p className='text-left bg-white'>Carbonflesh is an indie game that I've been working on as the Sound Designer. In this video, you'll find some gameplay and examples of my implementation. The sounds have been Implemented using Wwise and Unity.</p>
           </div>
         </div>
