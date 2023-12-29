@@ -30,6 +30,6 @@ export function init(){
       }
 
       iteration += 1 / 3;
-    }, 20);
+    }, 15);
   }
 }

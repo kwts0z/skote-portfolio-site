@@ -6,6 +6,6 @@
 #line-div:hover #line{
   display: flex;
   animation-name: anim;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   animation-fill-mode: forwards;
 }
