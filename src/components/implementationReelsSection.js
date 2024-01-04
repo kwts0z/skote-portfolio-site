@@ -36,7 +36,7 @@ function ImplementationReels() {
           <div className='flex flex-col space-y-5 ml-5 pt-5 px-5 z-10 w-full text-black text-xl 2xl:text-2xl lg:w-1/2'>
               <h1 className='font-extrabold text-3xl 2xl:text-4xl bg-white'>Carbonflesh</h1>
               <h2 className='font-bold bg-white'>Sound Design & Wwise / Unity Implementation</h2>
-              <p className='text-left bg-white'>Carbonflesh is an indie game I've been working on as the Sound Designer. This video shows some brief gameplay and  examples of implementation for different parts of the game. The sounds have been implemented using Wwise and Unity.</p>
+              <p className='text-left bg-white'>Carbonflesh is an indie game I've been working on as the sole Sound Designer. This video shows some brief gameplay and examples of implementation for different parts of the game. The sounds have been implemented using Wwise and Unity.</p>
           </div>
 
         </div>
@@ -45,8 +45,8 @@ function ImplementationReels() {
 
           <div className='flex flex-col space-y-5 ml-5 pt-5 px-5 z-10 w-full text-black text-xl 2xl:text-2xl lg:w-1/2'>
               <h1 className='font-extrabold text-3xl 2xl:text-4xl'>Abandoned Hospital Breakdown</h1>
-              <h2 className='font-bold bg-white'>Unreal Engine 5 Implementation</h2>
-              <p className='text-left bg-white'>This video breaks down my implementation for the Abandoned Hospital using sound cues and blueprints in Unreal Engine 5. I talk about the ambience, source loops (such as sinks and bugs) and area loops (such as rain and wind), interactions (such as opening doors and collision with objects) as well as systems that check for collected items sequences or dialogue feedback. Further, I talk about audio volumes, sequences and animations, and footstep implementation.</p>
+              <h2 className='font-bold bg-white'>Sound Design & Unreal Engine 5 Implementation</h2>
+              <p className='text-left bg-white'>This video breaks down my implementation for the Abandoned Hospital map in Unreal Engine 5. I talk about how I used sound cues and blueprints to implement sounds such as the ambience, source loops and area loops, interactions, footsteps, and dialogue. Further, I show how I used audio volumes, sequences, animations, and systems to enhance the gameplay experience.</p>
           </div>
 
           <div id="video-wrapper2" className='relative flex w-full h-full items-end p-8'>
@@ -57,21 +57,21 @@ function ImplementationReels() {
 
         <div className='flex flex-col w-full items-start lg:flex-row lg:space-x-5'>
           <div className='flex flex-col w-full'>
-            <div id="video-wrapper3" className='relative flex w-full h-full items-end p-8'>
+            <div id="video-wrapper3" className='relative flex w-full h-full items-end p-6'>
               <ReactPlayer width='100%' height='100%' style={style} url='https://vimeo.com/870703436' controls={true}/>
             </div>
             <div className='flex flex-col space-y-5 text-black pt-5 z-10 text-xl xl:text-2xl'>
-              <h1 className='font-extrabold text-3xl 2xl:text-4xl bg-white'>Abandoned Hospital Demo</h1>
+              <h1 className='font-extrabold text-3xl 2xl:text-4xl bg-white'>Abandoned Hospital Gameplay</h1>
               <h2 className='font-bold bg-white'>Sound Design & Unreal Engine 5 Implementation</h2>
               <p className='text-left bg-white pb-5'>Using the Abandoned Hospital demo level in Unreal Engine, I implemented my sounds from ambience to interactions using Unreal Engine's native tools such as Sound Cues, Audio Volumes and Blueprints. Further, I have also modified the level to add more interactions and enhance the gameplay experience. These changes vary from item collection, to light changes, or moving sounds using sequencers. This video presents a gameplay example. </p>
             </div>
           </div>
           <div className='flex flex-col w-full'>
-            <div id="video-wrapper4" className='relative flex w-full h-full items-end p-8'>
+            <div id="video-wrapper4" className='relative flex w-full h-full items-end p-6'>
               <ReactPlayer width='100%' height='100%' style={style} url='https://vimeo.com/874181212' controls={true}/>
             </div>
             <div className='flex flex-col space-y-5 text-black bg-white pt-5 text-xl xl:text-2xl'>
-              <h1 className='font-extrabold text-3xl 2xl:text-4xl'>Space Journey Demo</h1>
+              <h1 className='font-extrabold text-3xl 2xl:text-4xl'>Space Journey Gameplay</h1>
               <h2 className='font-bold'>Sound Design & Fmod / Unity Implementation</h2>
               <p className='text-left pb-5'>Space Journey is a Unity demo game that I used to demonstrate my Fmod and Unity implementation skills. This video breaks down all the different sound sources and audible interactions within the game.</p>
             </div>
