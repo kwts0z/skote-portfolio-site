@@ -1,9 +1,9 @@
 import ReactPlayer from 'react-player';
 import {init} from './textAnimation';
 
-// window.onload = function() {
-//   init();
-// };
+window.onload = function() {
+  init();
+};
 
 function Showreel() {
   const style ={aspectRatio: '16/9'};
