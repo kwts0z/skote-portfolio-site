@@ -1,0 +1,24 @@
+#video-wrapper {
+    border-image: url("../assets/border2.svg") ;
+    border-image-slice: 0 fill;
+}
+
+
+#video-wrapper2 {
+    
+    border-image: url("../assets/border.svg") ;
+    border-image-slice: 0 fill;
+}
+
+
+#video-wrapper3 {
+    
+    border-image: url("../assets/border3.svg") ;
+    border-image-slice: 0 fill;
+}
+
+#video-wrapper4 {
+    
+    border-image: url("../assets/border4.svg") ;
+    border-image-slice: 0 fill;
+}
