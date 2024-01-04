@@ -20,7 +20,7 @@ function Footer() {
       <div className='flex w-full md:w-1/3 justify-center lg:justify-normal'>
         <img src={logo} alt='Georgios Logo' className='h-24 md:pb-2 transition-all duration-300 hover:scale-110 cursor-pointer md:order-1' onClick={(e) => {e.preventDefault(); scrollToSection('showreel')}}></img>
       </div>
-      <h1 className='text-xs md:text-base md:order-2'>Copyright© 2023 Created by <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/k0nstantinos-giannopoulos/' className='hover:text-slate-500'>Kwts0s</a></h1>
+      <h1 className='text-xs md:text-base md:order-2'>Copyright© 2023 Created by <a target="_blank" rel="noreferrer" href='https://www.kwtsos.bio' className='hover:text-slate-500'>Kostas</a></h1>
     </div>
   );
 }
