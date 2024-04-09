@@ -1,11 +1,16 @@
 import ReactPlayer from 'react-player';
 import {init} from './textAnimation';
+import { useEffect } from 'react';
 
-window.onload = function() {
-  init();
-};
+// window.onload = function() {
+//   init();
+// };
+
 
 function Showreel() {
+  useEffect(() => {
+    init();
+  });
   const style ={aspectRatio: '16/9'};
   return (
     <div id="showreel" className="flex flex-col bg-black px-0 space-y-5 pt-32 justify-center items-center xl:px-56">

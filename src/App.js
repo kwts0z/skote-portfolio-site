@@ -1,22 +1,25 @@
 import './App.css';
+import Home from './Home';
+import Blog from './Blog';
 import Navbar from './components/navbar';
-import Showreel from './components/showreelSection';
-import ImplementationReels from './components/implementationReelsSection';
 import Footer from './components/footer';
-import About from './components/about';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 
 function App() {
   return (
-    <div class="App">
+    <Router>
       <Navbar/>
-      <main className='overflow-hidden'>
-        <Showreel/>
-        <ImplementationReels/>
-        <About/>
-        <Footer/>
-      </main>
-    </div>
+      <Routes>
+        <Route exact path='/' element={<Home/>}/>
+        <Route exact path='/blog' element={<Blog/>}/>
+      </Routes>
+      <Footer/>
+    </Router>
   );
 }
 
