@@ -39,7 +39,7 @@ function About() {
               <li>Returnal</li>
               <li>Vampire: The Masquerade - Bloodlines 2</li>
               <li>Ghostrunner 2</li>
-              <li>The Outlast Trials</li>
+              <li>Marathon</li>
             </ul>
             <ul className='lg:w-1/3'>
               <li className='font-extrabold underline pb-5 list-none'>My hobbies:</li>
