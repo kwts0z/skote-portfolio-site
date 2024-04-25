@@ -6,9 +6,10 @@ import fm from "front-matter";
 function BlogPost() {
   const [post, setPost] = useState([]);
     let params = useParams();
+    const filePath = require(`./posts/${params.post}.md`);
 
     const loadPosts = async () => {
-      const content = await fetch(`/static/media/${params.post}`).then((res) => res.text()).then((text) => {
+      const content = await fetch(filePath).then((res) => res.text()).then((text) => {
         return text;
       });
       setPost(content);

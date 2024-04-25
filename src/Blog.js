@@ -5,7 +5,8 @@ import image from './assets/divider.svg';
 import splatter from './assets/splatter.png';
 
 const importAll = (r) => r.keys().map(r);
-const markdownFiles = importAll(require.context('./posts', false, /\.md$/));
+const tmp = require.context('./posts', false, /\.md$/);
+const markdownFiles = importAll(tmp);
 
 function Blog() {
     const [posts, setPosts] = useState([]);
@@ -32,7 +33,7 @@ function Blog() {
                 <PostCard key={index} title={fm(post.content).attributes.title} filename={post.fileName}/>
             ))}
         </div>
-        <img className="w-full z-50 object-cover" src={image} alt='divider'/>
+        <img className="w-full z-50 object-cover pt-20" src={image} alt='divider'/>
         <img className='absolute top-80 lg:top-40 -right-52 lg:w-1/2 m-auto' src={splatter} alt=''/>
       </div>
     );
