@@ -24,7 +24,7 @@ function About() {
           <div className='flex w-full overflow-hidden justify-center items-center sm:w-1/5'>
             <img className="w-full object-cover rounded" src={image1} alt='Profile'/>
           </div>
-          <div className='flex flex-col w-full space-y-5 text-gray-200 justify-between items-center lg:flex-row lg:space-y-0'>
+          <div className='flex flex-col w-full space-y-5 text-gray-200 justify-between items-center lg:flex-row lg:space-y-0 text-center'>
             <ul className='lg:w-1/3'>
               <li className='font-extrabold underline pb-5 list-none'>My favourite games:</li>
               <li>Control</li>
