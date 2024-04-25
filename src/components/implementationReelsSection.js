@@ -15,11 +15,11 @@ function ImplementationReels() {
   return (
     <div id="impReel" className='relative bg-white'>
       <div className='relative flex flex-row w-full h-full pb-20'>
-        <img className="w-1/2 h-full rotate-180 z-50" src={image2} alt='divider'/>
-        <img className="w-1/2 h-full rotate-180 z-50 " src={image2} alt='divider'/>
+        <img className="w-1/2 h-full rotate-180 z-50" src={image2} alt=''/>
+        <img className="w-1/2 h-full rotate-180 z-50 " src={image2} alt=''/>
       </div>
-      <img className='absolute bottom-[30%] w-96 h-96 pt-6 z-0 m-auto' src={paint} rel=' '/>
-      <img className='absolute top-80 lg:top-40 -right-52 lg:w-1/2 z-0 m-auto' src={splatter} rel=' '/>
+      <img className='absolute bottom-[30%] w-96 h-96 pt-6 z-0 m-auto' src={paint} alt=''/>
+      <img className='absolute top-80 lg:top-40 -right-52 lg:w-1/2 z-0 m-auto' src={splatter} alt=''/>
       <div className="flex flex-col justify-center items-center pt-16 space-y-10 z-50 px-10 lg:px-36 xl:px-56">
         <div className='flex flex-row justify-center items-center space-x-5 text-black'>
           
